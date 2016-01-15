@@ -1,0 +1,415 @@
+\documentclass[a4paper,10pt,notitlepage]{article}
+\oddsidemargin -0.35in 
+\topmargin -0.8in
+\textwidth 7in
+\textheight 10in
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[american]{babel}
+\usepackage[dvips]{graphicx}
+\usepackage{multicol}
+%\renewcommand{\baselinestretch}{3}
+\oddsidemargin 0.0in 
+%%this makes the odd side margin go to the default of 1inch
+\textwidth 6.5in
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{\large\bfseries Bryan Bischof}
+\lhead{\large\bfseries R\'{e}sum\'{e}} 
+\begin{document}
+\begin{multicols}{2}{
+\noindent 
+1135 Page St. Apt. A\\
+Berkeley, CA 94702
+
+\noindent Phone: 412-953-7407\\
+Personal Email: bryan.bischof@gmail.com\\
+Employer Email: bbischof@asperasoft.com
+%Homepage:\url{http://www.math.ksu.edu/~schof/}
+}
+\end{multicols}
+
+\vspace{-10pt}\section*{Statement of Purpose}
+\noindent \textit{\textbf{I am a mathematician-turned-data engineer with a penchant for applying elegant thinking to difficult quantitative problems in the technology space. I am notorious for asking the right questions. I also have a deep love for information presentation and communication. }}
+
+
+\vspace{-10pt}\section*{Education}
+\begin{itemize}
+	\vspace{-5pt}\item	2015-Jan 2016: Galvanize Data Engineering Immersive 
+	\vspace{-5pt}\item	2015: Galvanize D3 Workshop
+	\vspace{-5pt}\item	2008-May 2014: Ph.D. in Mathematics, Kansas State University\\ \textit{Surowski Memorial Fellowship Research Excellence Award, University Academic Excellence Award.}
+	%\vspace{-5pt}\item	2008-2011: Masters Degree in Mathematics, Kansas State University
+	\vspace{-5pt}\item	2004-2008: Bachelors Degree in Mathematics, Westminster College.
+\end{itemize}
+
+\vspace{-10pt}\section*{Professional Experience}
+\subsection*{Data Engineering}
+\subsubsection*{Galvanize Data Engineering Immersive October 2015-January 2016}
+	\begin{itemize}
+		\vspace{-5pt} \item Project driven course on the most popular and essential big data technologies. Solo and pair programming labs daily implementing, problem solving, and testing lessons learned that day.
+		\vspace{-5pt} \item Data Engineering Capstone: ongoing
+		\vspace{-5pt}\item 	\textbf{Used Spark, Scala, MapReduce, Hive, Pig, Sqoop, Flume, Scalding, HDFS, Hadoop, Python, REST API, JSON, Java, JUnit, and more}
+	\end{itemize}
+	\subsubsection*{IBM(Aspera Labs) February 2014-Present: Software Engineer, Research and Development}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Designed a Spark Streaming Data Pipeline \begin{itemize}
+					\item 	Utilizing Spark, Spark Streaming, ScaleKV(Redis), and ASCP I designed an injest pipeline for processing high value log files in real time.
+					\item 	Designed and implemented a Lambda architecture to fit with the Spark Streaming layer and allow for permanent storage solutions simultaneously.
+					\end{itemize}
+	\end{itemize}
+\subsection*{Data Science and Software Engineering}
+\subsubsection*{IBM(Aspera Labs) February 2014-Present: Software Engineer, Research and Development}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Data Visualization Dashboard and Log File Processing \begin{itemize}
+					\item 	Built D3 data visualizations for extremely high dimensional data sets parsed from transfer log files. 
+					\item 	Brainstormed, prototyped, tested, implemented and redesigned more than 20 different data visualizations for a custom data dashboards for incredibly large and high resolution data. 
+					\item 	Met with expected customers of dashboard, and implemented their requests and suggestions for the dashboard. 
+					\item 	Integrated visualizations into a large Ruby and JS codebase, pulling data from a Python/Hadoop backend live datastore. 
+					\item 	Presented dashboard and analysis results at IBC in the Netherlands to hundreds of customers; answered technical questions and usage questions from engineers, managers, and sales-people. 
+					\item 	Worked in a team of 3.
+					\end{itemize}
+	\vspace{-5pt}\item 	Livestream data transfer experimentation, analysis, and paper writing \begin{itemize}
+					\item 	Designed an experiment to test efficiency of a new livestream video technology quatitatively. 
+					\item 	Utilized a modification of TCPDump to observe packets in large scale transfers and gather \textit{perfect} resolution data at the packet level. 
+					\item 	Designed and ran a large test rubrik and data pipeline in BASH and Python to manage the transfers, collect the data, parse the data, analyze the data, and output the data to a D3 visualization. 
+					\item 	Wrote a white-paper from my results; presented paper and analysis at NAB in Las Vegas to thousands of customers; shortlisted for the Game-Changer award due to my work proving the efficiency of the new technology and its applicability to the use-cases; answered technical questions and usage questions from people all across the media-tech space, including a panel of judges. 							\item 	Worked primarily alone, with assistance from others on certain technologies.
+					\end{itemize}
+	\vspace{-5pt}\item 	Brainstormed and prototyped a number of data products for integration with Aspera's core software. This ranges from researching ML algorithms in specialized fields, to extensive mathematical modeling of signals. \textit{Many details of this work I am not permitted to disclose.}
+	\vspace{-5pt}\item 	(Ongoing) Satellite network analysis \begin{itemize}
+					\item 	Designed an experiment to test network qualities of a particular satellite network. 
+					\item 	Configured the network, built the test framework, built the data pipeline for processing, generated data visualization and analysis. Used data analysis to redesign the transfer for networks of this type. 
+					\item 	Expanded test cases to include WAN networks. Retested, and expanded model to include WAN use-cases. 
+					\item 	Brainstormed and prototyped modifications to the core technology for optimization of these networks. 						\item 	Worked with an intern.
+					\end{itemize}
+	 \vspace{-5pt}\item 	\textbf{Used Python, REST API, JSON, Javascript, D3.js, CSS, HTML, Awk, Sed, BASH, GNUplot, C++, C, Ruby, jQuery, signal processing, statistics, control theory, experimental design.}
+	\end{itemize}
+
+\subsubsection*{Sentiment Analysis}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Built a Python framework for extracting tweets in a particular community to build a sentiment analysis model improving on the opensource AFINN model. Framework extends to any subject field with minimal modifications.
+	\vspace{-5pt}\item 	Extracted tweets mentioning specific products related to the field and evaluate their sentiment using improved AFINN model.
+	\vspace{-5pt}\item 	Built an interactive D3.js webpage using the Rickshaw framework to display sentiment timeseries associated to each keyword and summary statistics provided by the analysis.
+	 \vspace{-5pt}\item 	\textbf{Used Python, REST API, AFINN, JSON, Javascript, D3.js, Rickshaw, CSS, HTML, Awk, Sed, and BASH.}
+	\end{itemize}
+
+
+\subsection*{Research}
+%\subsubsection*{NLP(Natural Language Processing) sheaves on networks}
+%	\begin{itemize}
+%	\vspace{-5pt}\item 	Invented a theoretical framework for extending NLP algorithms to connected components of networks to discover hidden connections between users based on text mining techniques localized to individual users.
+%	\vspace{-5pt}\item 	Wrote a theoretical structure for this kind of analysis, generalizable to any NLP text algorithms and finite networks.
+%	\vspace{-5pt}\item 	Implemented text NLP algorithms in Python, proof-of-concept on Twitter users.
+%	 \vspace{-5pt}\item 	\textbf{Used Python, REST API, linear algebra techniques, NumPy, sheaf theory/algebraic geometry.}
+%	\end{itemize}
+
+\subsubsection*{Noncommutative differential operators}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Proved that two classical results on quantum differential operators had a deep unknown connection.
+	\vspace{-5pt}\item 	Proved a series of results on quantum differential calculus on quantum spaces.
+	\vspace{-5pt}\item 	Proved theoretical results on the algebraic structure of quantum differential algebras and linear algebraic representations.
+	\vspace{-5pt}\item 	\textbf{Used Category Theory, Higher Algebra, Algebraic Geometry, and Representation Theory}
+	\end{itemize}
+
+\subsubsection*{Pictoral basis for the vector space of framed, linked, knots}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Invented a combinatorial algorithm to generate all possible diagrams representing knots with orientation and a finite number of pieces. Created mathematical and computational representations to efficiently store diagrams in memory for large-scale linear algebra operations.
+	\vspace{-5pt}\item 	Implemented this combinatorial algorithm in JAVA, generated $>1$M new diagrams unknown to mathematicians. 
+	\vspace{-5pt}\item 	Wrote a data processing tool to convert this data to a million-entries sparse matrix.
+	\vspace{-5pt}\item 	Wrote a batch file(Windows Script) to transfer this matrix into Mathematica for fast row-reduction and run on the computing cluster at KSU.
+	\vspace{-5pt}\item  	Wrote a JAVA script to read this matrix output, isolate particular entries, reduce by a mathematical dependence relation, and draw the 2-dimensional diagrams associated to them.
+	 \vspace{-5pt}\item 	\textbf{Used advanced algebraic/combinatorial techniques, JAVA, Batch, Mathematica, Javascript.}
+	\end{itemize}
+	
+\vspace{-10pt}\section*{Technical Skills}
+
+	\begin{itemize}
+		\item \textbf{Languages} - I have worked in Javascript, Python, Bash, Awk, Sed, HTML, and Mathematica. I have had courses in R, Matlab, and Gap. I completed about 75\% of an undergrad CS curriculum in JAVA. 
+		\item \textbf{Platforms and Techniques} -  Text Mining, Sentiment Analysis, Restful APIs, Scripting, Algorithm Design, Technical Writing, Vector Graphics, MapReduce, Experimental Design and Statistics.
+	\end{itemize}
+
+\subsection*{Education, Service, and Leadership}
+\subsubsection*{CommonCore Curriculum writer}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Designed and planned the curriculum for 11th grade mathematics for the national CommonCore education initiative.
+	\vspace{-5pt}\item 	Wrote modules and exercise sets for teachers to use during classes.
+	\vspace{-5pt}\item 	Led other writers to develop modules and exercise sets.
+	 \vspace{-5pt}\item 	\textbf{Used Sharepoint, Latex, Word.}
+	\end{itemize}
+
+\subsubsection*{Graduate Teaching Assistant}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Taught undergraduate courses in mathematics, TA'ed graduate course in algebra, conducted qualifying exam study sessions for new graduate students.
+	 \vspace{-5pt}\item 	\textbf{Courses Taught: Single and Multi-variable calculus.}
+	\end{itemize}
+
+\subsubsection*{Summer REU mentor}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Served as a research and technology mentor for undergraduates participating in the KSU NSF REUs in 2010, 2011.
+	 \vspace{-5pt}\item 	\textbf{Topics lectured: Algebraic Number Theory, Linear Algebra, Latex, Matlab.}
+	\end{itemize}
+
+\subsubsection*{Special Summer Math lecturer}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Trained K-12 teachers on mathematics modules and applied mathematics examples for use in their classrooms.
+	\vspace{-5pt}\item 	Wrote small programming scripts to extract data to connect the mathematics we were covering with current events. 
+	\vspace{-5pt}\item 	Wrote python scripts to scrape tweets and perform n-gram analysis, used R to plot the data, analyze it, and compare it to the classical version by Peter Norvig. Presented graphics generated at an R "graphics contest" on campus, got second place.
+	\vspace{-5pt}\item 	Wrote a simulator to show the efficiency of binary vs linear search and related to translating morse code/decoding messages based on a tree representation.
+	 \vspace{-5pt}\item 	\textbf{Python, R, REST API, ggplot2.}
+	\end{itemize}
+
+\subsubsection*{Organizer, KSU Algebra and Representation Theory Conference}
+	\begin{itemize}
+	\vspace{-5pt}\item 	Organized subject matter, contacted invited speakers, determined schedule, contacted conference participants.
+	\vspace{-5pt}\item 	Wrote CSS webpage, advertised on research boards/newsgroups.
+	\vspace{-5pt}\item 	Organized KSU graduate students to carry out tasks during the conference, food, refreshments, excursions.
+	 \vspace{-5pt}\item 	\textbf{Used CSS, HTML.}
+	\end{itemize}
+
+%\vspace{-10pt}\section*{Employment}
+%    \begin{itemize}
+%	\vspace{-5pt}\item	2008-Present: Graduate Teaching Assistant at Kansas State University
+%	\vspace{-5pt}\item 	2013-Present: Curriculum Writer Consultant at \href{http://commoncore.org/}{CommonCore} (grades 11-12) 
+%	\vspace{-5pt}\item	2013: Visiting Researcher at the Max Planck Institute For Mathematics
+%	\vspace{-5pt}\item	2013: ``Project QUEST Mathematics Leadership Academy'' Instructor (5-10th grade)
+%	\vspace{-5pt}\item	2013: ``MILeS Project: Mathematics Instruction through Lesson Study''  Instructor (4-8th grade)
+%	\vspace{-5pt}\item 	2011, 2012: I-Center Undergraduate Research Mentor
+%	\vspace{-5pt}\item	2010, 2011: Mentor for KSU REU
+%	%\vspace{-5pt}\item	2010: I-Center Undergraduate Research Mentor, Mentor for KSU REU
+%	%\vspace{-5pt}\item	2007: Kansas State University REU, NSF Grant \#GOMT530725
+%	%\vspace{-5pt}\item	2007: Tutor and Undergraduate Teaching Assistant for Differential Equations and Linear Algebra
+%	\vspace{-5pt}\item	2006-2008: Westminster Computer Technicians Desk: Intern of User Systems
+%	\vspace{-5pt}\item	2005-2006: Westminster Computer Technicians Desk: Computer Technician
+%    \end{itemize}
+
+%\vspace{-10pt}\section*{Publications and Research}
+%	\begin{itemize}
+%		\item 	Bryan Bischof, Lee Goerl, \emph{Deformations of Differential Operators I: Representations of $U_q(\mathfrak{sl}_n)$}, In revision.
+%
+%		\item 	Bryan Bischof, Zongzhu Lin, \emph{Deformations of Differential Operators II: Geometry of $\beta$-Differential Operators}, Preprint.
+%
+%		%\item 	Bryan Bischof, Tej Seretha, David Yetter, \emph{Deformations of Pasting Diagrams II}, In preparation.
+%
+%		\item 	Bryan Bischof, Roman Kogan, David Yetter,
+%\emph{On a Basis for the Framed Link Vector Space Spanned by Chord Diagrams}, The Journal of Knot Theory and Its Ramifications. Volume: 18, Issue: 12(2009) pp. 1663-1680
+%
+%		\item 	Bryan Bischof, Javier Gomez-Calderon, Andrew Periello,
+%\emph{Integer-Coefficient Polynomials Have Prime-Rich Images}, Mathematics Magazine, Volume 83, Number 1, February 2010 , pp. 55-57
+%
+%		\item 	\emph{Hyperbolicity of quantum Schubert cells}. In preparation.
+%
+%		\item 	\emph{Gluing of differential operators on quantum Schubert cells}. In preparation
+%	\end{itemize}
+
+%\vspace{-10pt}\section*{Extracurricular Projects}
+%
+%\begin{itemize}
+%	\item 	\textbf{Theros Sentiment Analysis} Wrote Python code to mine twitter for tweets about words related to a card game and analyze how players regard certain cards. \textit{Collecting Data}
+%	\item 	\textbf{Twitter Sheaves}  Writing a theoretical framework for applying NLP algorithms to discrete networks to find common themes given by varying NLP frameworks. \textit{Paper in preparation}
+%	\item 	\textbf{Facebook Status Stats} Wrote some Python code to compute some basic statistics related to ones own Facebook usage. \textit{Software in preparation}
+%	
+%\end{itemize}
+
+% 	\vspace{-10pt}\section*{Selected Talks and Conferences}
+%
+%	\begin{itemize}
+%	\vspace{-5pt}\item 	University of Kansas, Algebra Seminar, 1-hour talk: \emph{Deformations of Differential Operators}
+%
+%	\vspace{-5pt}\item	QGM Masterclass at Aarhus, Soergel bimodules and Kazhdan-Lusztig conjectures by Williamson and Elias, participant.
+%
+%	\vspace{-5pt}\item	ICERM  Brown University, Whittaker Functions, Schubert calculus and Crystals, presented poster: \emph{Hyperbolicity of quantum Schubert cells and coboundary structures}.
+%
+%	\vspace{-5pt}\item	MSRI, Introductory Workshop: Noncommutative Algebraic Geometry and Representation Theory, participant.
+%
+%	\vspace{-5pt}\item	MSJ-SI Osaka, International Conference on \emph{Schubert Calculus}, 10-minute talk: \emph{Twisting and untwisting for differential operators on noncommutative rings}.
+%
+%	\vspace{-5pt}\item	MSJ-SI Osaka, International Conference on \emph{Schubert Calculus}, presented poster: \emph{Deformations of differential operators on the big cell}.
+%
+%	\vspace{-5pt}\item	MSRI, Summer Graduate Student Workshop on \emph{Noncommutative algebraic geometry}.
+%
+%	\vspace{-5pt}\item	Fields Institute, Workshop on \emph{Modern methods in representation
+%Theory}, participant.
+%
+%	\vspace{-5pt}\item	American Institute of Mathematics, Workshop on \emph{Real algebraic geometry and real solutions}, participant.
+%
+%	\vspace{-5pt}\item	University of Oregon, Workshop on \emph{Categorical representation theory}, participant.
+%
+%	\vspace{-5pt}\item	Iowa State University, Underrepresented Students in Topology and Algebra Research Symposium, 20-minute talk: \emph{Quantum Weyl algebras and quantum flag varieties}
+
+	%\vspace{-5pt}\item 	North Carolina State University, CBMS Workshop on \emph{Deformation Theory}, participant.
+
+	%\vspace{-5pt}\item 	Ohio State Young Mathematicians Conference, invited speaker for two talks: \emph{An Orbital Basis for the Framed Link Vector Space of Chord Diagrams} and \emph{On the Images of Integer Coefficient Non-Constant Polynomials.}
+
+%	\vspace{-5pt}\item 	Westminster Honors Research Colloquium, presented: \emph{Geometric combinatorics and three classical groups.}
+
+	%\vspace{-5pt}\item 	Mathfest 2006 \& 2007, presented twice:  \emph{Blowing a Breaker:Lights out in Multiple Dimensions} and \emph{On the Images of Integer Coefficient Non-Constant Polynomials.}
+
+	%\vspace{-5pt}\item 	More than thirty seminar talks at KSU over the past two years in the Algebra Seminar(2), Representation Theory Seminar(3), Graduate Student Seminar(2), and Noncommutative Algebraic Geometry Seminar($>20$).
+%	\end{itemize}
+
+%	\vspace{-10pt}\section*{Teaching and Outreach Experience}
+%	\begin{itemize}
+%	\vspace{-5pt}\item	Summer 2013: Served as an instructor for the Summer QUEST and MILeS programs integrating university mathematics and the common core for excellence in teaching in K-12. \url{http://www.math.ksu.edu/quest/}
+%
+%	\vspace{-5pt}\item	Spring 2009-Present: Organized Graduate Student Seminar in \textit{Noncommutative Algebraic Geometry}
+%
+%	\vspace{-5pt}\item 	Spring 2010, Fall 2010, Spring 2011, Fall 2012: Analytical Geometry and Calculus 3; Instructor \url{http://www.math.ksu.edu/courses/syllabi/math222/fall-2012/}
+%
+%	\vspace{-5pt}\item 	Fall 2008 --- Fall 2009, Fall 2011, Spring 2012: Analytical Geometry and Calculus 1; Instructor
+%
+%	\vspace{-5pt}\item	Fall 2012: Co-Chaired Graduate Student Conference in Algebra and Representation Theory \url{http://www.math.ksu.edu/events/grad_conf_2013/}
+%
+%	\vspace{-5pt}\item 	Spring 2010, 2011, 2012: Judged Kansas Junior Academy of Science, State Science Fair \url{http://webs.wichita.edu/kjas/}
+%
+%	\vspace{-5pt}\item	Spring 2010, 2011, 2012: Judged Wamego Science Fair \url{http://www.usd320.com/MiddleSchool/Activities/sciencefair.aspx}
+%
+%	\vspace{-5pt}\item 	Summer 2011: Mentored SUMaR KSU REU(numerous talks, mentoring, technical assistance) \url{http://www.math.ksu.edu/reu/sumar/Results2011.html}
+%
+%	\vspace{-5pt}\item 	Spring 2011: Mentored Undergraduate Research on \textit{Hyperbolic Algebras and Representation Theory} through I-Center.
+%	\vspace{-5pt}\item 	Fall 2010: Abstract Algebra; Instructor
+%	\vspace{-5pt}\item 	Fall 2010: Served on Personnel Advisory Council(Graduate Student Representative)
+%
+%	\vspace{-5pt}\item	Fall 2010: Assisted in Qualifying Exam preparation for fellow graduate students
+%
+%	\vspace{-5pt}\item 	Fall 2010: Organized recitation for Math 512 \textit{Introduction to Modern Algebra}
+%
+%	\vspace{-5pt}\item	Summer 2010: Co-Organized Qualifying Exam study group
+%
+%	\vspace{-5pt}\item 	Summer 2010: Assisted with  KSU MAPS program(grader) \url{http://www.engg.ksu.edu/mep/}
+%
+%	\vspace{-5pt}\item	Summer 2010: Participated in GROW: Girls Researching Our World(prepared module, presented to 30 middle school girls) \url{http://www.k-state.edu/grow/}
+%
+%	\vspace{-5pt}\item 	Summer 2010: Mentored SUMaR KSU REU(numerous talks, mentoring, technical assistance) \url{http://www.math.ksu.edu/reu/sumar/Results.html}
+%
+%	\vspace{-5pt}\item	Spring 2010: Assistant for Manhattan Math Circle(weekly meetings) \url{http://www.math.ksu.edu/events/mathcircle/}
+%
+%	\vspace{-5pt}\item 	Summer 2009: Co-Organized Basic Exam study group
+%
+%	\vspace{-5pt}\item 	Spring 2009: Co-Organized "Cosmos Philosophy Group"
+%
+%	\vspace{-5pt}\item 	Spring 2009: Co-Organized Graduate Student Conference in Algebra and Representation Theory \url{http://www.math.ksu.edu/events/conference/grad_conf_2009/}
+%
+%	\vspace{-5pt}\item 	Spring 2009: Organized Study Group for Math 731 \textit{Noncommutative Algebra II}
+%
+%	\vspace{-5pt}\item 	Spring 2007: Differential Equations and Linear Algebra; Undergraduate teaching assistant
+%	\end{itemize}
+%
+%	
+
+
+
+
+
+% \section*{Courses and Texts}
+% \subsection*{Mathematics}
+%     \begin{itemize}
+%         \item Discrete Analysis \textit{Johnsonbaugh}
+%         \item Discrete Analysis II \textit{Johnsonbaugh}
+%         \item Statistics \textit{}
+%         \item Single Variable Calculus \textit{Stewart 5th Ed.}
+%         \item Multivariable Calculus  \textit{Stewart 5th Ed.}
+%         \item Differential Equations and Linear Algebra \textit{Hall}
+%         \item Abstract Algebra  \textit{Durbin, Herstein}
+%         \item Abstract Algebra II \textit{Herstein} (Enrolled)
+%         \item Probability and Statisics  \textit{}
+%         \item Number Theory \textit{Rosen} (Enrolled)
+%         \item Point-Set Topology \textit{Schick (preprint edition)}
+%         \item Operations Research \textit{Jensen}
+%         \item Numerical Analysis \textit{Burden and Faires}
+%         \item Real Analysis \textit{Ross}
+%         \item Mathematical Modeling (Taken at Kansas State University)
+%         \item Putnam Seminar (Taken at Kansas State University)
+%         \item Complex Variables (Independent Study w/ Dr. Javier Gomez at Pennsylvania State University) \textit{Zill}
+%         \item Complex Analysis (Independent Study w/ Dr. Natacha Fontes-Merz at Westminster College) \textit{Palka}
+%         \item Finite Geometry (Independent Study w/ Dr. David Shaffer at Westminster College) \textit{Bierbraurer, Ball}
+%         \item Lie Algebras (Independent Study w/ Dr. Zhongzu Lin at Kansas State University) \textit{Erdmann and Wildon}
+%     \end{itemize}
+% \subsection*{Physics}
+%     \begin{itemize}
+%         \item Principles of Physics \textit{Giancoli}
+%         \item Principles of Physics II \textit{Giancoli}
+%         \item Particle Dynamics  \textit{Fowles and Cassiday}
+%         \item Particle Dynamics II, Mechanics of Systems \textit{Fowles and Cassiday}
+%         \item Electronics
+%     \end{itemize}
+% \subsection*{Computer Science}
+%     \begin{itemize}
+%         \item Foundations of Computer Science \textit{Johnsonbaugh}
+%         \item Principles of Computer Science
+%         \item Principles of Computer Science II, Data Structures
+%         \item Computer Architecture \textit{}
+%     \end{itemize}
+
+%\section*{Research Experience}
+%    \begin{itemize}
+%	\item 2008-Present: \textit{Holonomic $D$-modules on quantum flag varieties and the geometry of quantized Schubert cells.} Advisor: Alexander Rosenberg and Zongzhu Lin (Possible thesis subject)
+%        \item 2007: Kansas State REU Program 2007: \textit{An Orbital Basis for the Framed Link Vector Space of Chord Diagrams}. Advisor: Dr. David Yetter with Coauthor Roman Kogan
+%        \item 2007: \textit{Finite Geometry and Symmetric Labelings of Projective Geometries}. Advisor: Dr. David Shaffer
+%        \item 2007: \textit{On the Images of Integer Coefficient Non-Constant Polynomials}. Advisor: Dr. Javier Gomez with Coauthor Andrew Perriello
+    %    \item 2006: \textit{Blowing a Breaker: Lights Out in Multiple Dimensions}. Advisor: Independent Research with Coauthor Andy Polack
+   % \end{itemize}
+
+%\section*{Lectures}
+%    \begin{itemize}
+%	\item	Kansas State Representation Theory Seminar (2008); \\Title:\textit{Geometric Combinatorics and Three Classical Groups}
+%	\item	Kansas State Number Theory Seminar (2008); \\Title:\textit{On the Images of Integer Coefficient Non-Constant Polynomials}
+%	\item	Westminster Honors Research Colloquium 2008; \\Title:\textit{Geometric Combinatorics and Three Classical Groups}
+%	\item	Westminster Senior Thesis Presentations 2008; \\Title:\textit{Finite Geometry and Symmetric Labelings of Projective Geometries}
+%        \item	Westminster Brown Bag Lunch 2007; \\Title:\textit{An Orbital Basis for the Framed Link Vector Space of Chord Diagrams}
+%        \item	Westminster Summer Research Colloquium 2007; Title:\textit{Getting Knotty in Kansas}
+%        \item	Ohio State University's Young Mathematicians Conference 2007; Title:\textit{An Orbital Basis for the Framed Link Vector Space of Chord Diagrams} with Roman Kogan
+%        \item	Ohio State University's Young Mathematicians Conference 2007; Title:\textit{On the Images of Integer Coefficient Non-Constant Polynomials} with Andrew Perriello
+%        \item	Mathfest 2007; Title:\textit{On the Images of Integer Coefficient Non-Constant Polynomials} with Andrew Perriello
+%        \item	Kansas State REU Research Presentation 2007; Title:\textit{An Orbital Basis for the Framed Link Vector Space of Chord Diagrams} with Roman Kogan
+%        \item	Westminster Mathematics Department Research Colloquium 2007; Title:\textit{Blowing a Breaker: Lights Out in Multiple Dimensions} with Andy Polack
+%        \item	Westminster Honors Research Colloquium 2007; Title:\textit{Blowing a Breaker: Lights Out in Multiple Dimensions} with Andy Polack
+%        \item	Allegheny Mountain Section Annual Meeting 2006; \\Title:\textit{Blowing a Breaker: Lights Out in Multiple Dimensions} with Andy Polack
+%        \item	Allegheny Mountain Section Annual Meeting 2007; Title:\textit{On the Images of Integer Coefficient Non-Constant Polynomials} with Andrew Perriello
+%        \item	Pennsylvania State University: New Kensington Campus Annual Research Fair 2007; Title:\textit{On the Images of Integer Coefficient Non-Constant Polynomials} with Andrew Perriello
+%        \item	Youngstown State University Pi Mu Epsilon Regional Conferance 2007; Title:\textit{2007 COMAP Modeling Competition Session (Forum for Participants in the Modeling Competition)} with Jim Bryan
+%        \item	Youngstown State University Pi Mu Epsilon Regional Conferance 2007; Title:\textit{On the Images of Integer Coefficient Non-Constant Polynomials} with Andrew Perriello
+%        \item	Mathfest 2006; Title:\textit{Blowing a Breaker: Lights Out in Multiple Dimensions}
+%        \item	Westminster Summer Research Colloquium 2006; Title:\textit{Sunbathing with Reimann}
+%        \item	Westminster Honors Research Colloquium 2006; Title:\textit{Blowing a Breaker: Lights Out in Multiple Dimensions} with Andy Polack
+%    \end{itemize}
+
+
+%\vspace{-10pt}\section*{Selected Awards and Honors}
+%	Some of the most relevant recent accolades for my work:
+%    \begin{itemize}
+%	\vspace{-5pt}\item 	2013: Max Planck Institute for Mathematics, Research Stipend %(\$2100)
+%	\vspace{-5pt}\item 	2013: KSU Academic Excellence Grant, University Research Grant %(\$3000)
+%	\vspace{-5pt}\item 	2012: David Surowski Memorial Fellowship, KSU Mathematics research excellence award %(\$2500)
+%	%\vspace{-5pt}\item 	2012: Mentor for Undergraduate Research, supported through KSU I-Center (\$300)
+%	\vspace{-5pt}\item 	2011: Runner up, KSU Leadership and Service award
+%	%\vspace{-5pt}\item 	2011: Mentor for Undergraduate Research, supported through KSU I-Center (\$300)
+%	%\vspace{-5pt}\item 	2010: Mentor for KSU REU, supported through KSU I-Center (\$4000)
+%	%\vspace{-5pt}\item 	2010: Midwest Topology Network Collaboration Grant, \#DMS-0844249 (\$1200)
+%	\vspace{-5pt}\item	2009: NSF Research Grant \#BG0788 (PI: Zongzhu Lin) %(\$5000)
+%	%\vspace{-5pt}\item 	2008-2010: Timothy R. Donoghue Graduate Scholarship (KSU) (\$10000)
+%	%\vspace{-5pt}\item	2007: Kansas State University REU, NSF Grant \#GOMT530725 (\$2500)
+%	\vspace{-5pt}\item 	2007: COMAP: Mathematics Modeling Contest Meritorious Winner
+%	%\vspace{-5pt}\item	2005, 2006, and 2007: Westminster College Drinko Center Undergraduate Research Grant (\$300 each time)
+%	%\vspace{-5pt}\item 	2004: Westinghouse Science Honors Institute (Highschool)
+%    \end{itemize}
+
+%\vspace{-10pt}\section*{Relevant Coursework Outside Thesis Subject}
+%
+%\begin{itemize}
+%		\item \textbf{Computer Science}: Data Structures 1-3, Architecture, Operating Systems, Algorithms, R for Biologists.
+%		\item \textbf{Statistics}: Statistics 1-2, Multivariate Statistics, Operations Research.
+%		\item \textbf{Applied Mathematics}: Numerical Analysis, Applied Mathematics(grad level), Applied Linear Algebra, Computational Linear Algebra.
+%		\item \textbf{Data Science}: Introduction to Data Science(Coursera), Web Analytics(Coursera)
+%
+%\end{itemize}
+
+
+
+%\vspace{-10pt}\section*{Outside Interests}
+
+%Coffee Tasting, Cycling,\href{http://dirtyapplebikepolo.tumblr.com/}{Bike Polo}, \href{http://www.flickr.com/photos/bbischof/}{Photography}, Magic: The Gathering, \href{https://www.facebook.com/OverheardInACoffeeshop}{Eavesdropping}. 
+
+\end{document}
