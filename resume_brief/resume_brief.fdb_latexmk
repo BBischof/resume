@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1529559470 "/Users/bryan/dev_other/resume/resume_brief.tex" "/Users/bryan/dev_other/resume/resume_brief.pdf" "resume_brief" 1529559470
-  "/Users/bryan/dev_other/resume/resume_brief.aux" 1529559470 824 f3b9c97faf7fe2e8ba2de00994062cb2 ""
-  "/Users/bryan/dev_other/resume/resume_brief.tex" 1529559469 5461 1c99b9b5ee1fe1bb0497fce5574e4713 ""
+["pdflatex"] 1536037546 "/Users/bryan/dev_other/resume/resume_brief/resume_brief.tex" "/Users/bryan/dev_other/resume/resume_brief/resume_brief.pdf" "resume_brief" 1536037546
+  "/Users/bryan/dev_other/resume/resume_brief/resume_brief.aux" 1536037546 824 f3b9c97faf7fe2e8ba2de00994062cb2 ""
+  "/Users/bryan/dev_other/resume/resume_brief/resume_brief.tex" 1536037544 5560 97719e8f3eca7a5ef0a2510776cd8453 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -69,13 +69,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1489729758 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "resume_brief.aux" 1529559470 824 f3b9c97faf7fe2e8ba2de00994062cb2 ""
-  "resume_brief.out" 1529559470 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume_brief.tex" 1529559469 5461 1c99b9b5ee1fe1bb0497fce5574e4713 ""
+  "resume_brief.aux" 1536037546 824 f3b9c97faf7fe2e8ba2de00994062cb2 ""
+  "resume_brief.out" 1536037546 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume_brief.tex" 1536037544 5560 97719e8f3eca7a5ef0a2510776cd8453 ""
   (generated)
-  "resume_brief.log"
-  "resume_brief.pdf"
-  "resume_brief.aux"
+  "/Users/bryan/dev_other/resume/resume_brief.log"
+  "/Users/bryan/dev_other/resume/resume_brief/resume_brief.log"
   "/Users/bryan/dev_other/resume/resume_brief.pdf"
   "resume_brief.out"
-  "/Users/bryan/dev_other/resume/resume_brief.log"
+  "/Users/bryan/dev_other/resume/resume_brief/resume_brief.pdf"
+  "resume_brief.aux"
+  "resume_brief.pdf"
+  "resume_brief.log"
